@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.all{
+  width: 90%;
+  background-color: #073b4c;
+  font-weight: bold;
+  color: white;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  justify-content: center;
+}
+.inputSalary{
+  width: 90%;
+  padding: 1rem;
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  color: #118ab2;
+}
+
+.inputsData{
+    display: inline-flex;
+    padding: 10px;
+    margin: 0 auto;
+}
+.bars{
+    display: flex;
+    flex-direction: row;    
+}
